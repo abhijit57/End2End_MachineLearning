@@ -6,6 +6,9 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass  # Used to create class variables
 
+from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
+
 
 # Using dataclass, allows us to directly define your class variables; (dataclass decorator comes in handy when only defining variables)
 @dataclass   
@@ -46,13 +49,16 @@ class DataIngestion:
                 self.ingestion_config.train_data_path,
                 self.ingestion_config.test_data_path
             )
-        except:
-            pass
+        except Exception as e:
+            raise CustomException(e, sys)
         
 
 if __name__ == "__main__":
 
     di_obj = DataIngestion()
-    di_obj.initiate_data_ingestion()
+    train_data, test_data = di_obj.initiate_data_ingestion()
+
+    data_transformation=DataTransformation()
+    data_transformation.initiate_data_transformation(train_data, test_data)
 
 
