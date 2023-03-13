@@ -8,6 +8,8 @@ from dataclasses import dataclass  # Used to create class variables
 
 from src.components.data_transformation import DataTransformation
 from src.components.data_transformation import DataTransformationConfig
+from src.components.model_trainer import ModelTrainerConfig
+from src.components.model_trainer import ModelTrainer
 
 
 # Using dataclass, allows us to directly define your class variables; (dataclass decorator comes in handy when only defining variables)
@@ -59,6 +61,7 @@ if __name__ == "__main__":
     train_data, test_data = di_obj.initiate_data_ingestion()
 
     data_transformation=DataTransformation()
-    data_transformation.initiate_data_transformation(train_data, test_data)
-
+    train_arr, test_arr,_ = data_transformation.initiate_data_transformation(train_data, test_data)
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(train_arr, test_arr))
 
