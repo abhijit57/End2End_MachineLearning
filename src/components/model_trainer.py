@@ -107,6 +107,7 @@ class ModelTrainer:
                 list(model_report.values()).index(best_model_score)
             ]
             best_model = models[best_model_name]
+            print(best_model_name, '\n', best_model, '\n')
 
             if best_model_score < 0.6:
                 raise CustomException("No best model found")
