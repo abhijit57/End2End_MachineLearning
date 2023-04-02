@@ -1,0 +1,4 @@
+[ 2023-03-17 13:40:42,419 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-03-17 13:40:42,427 ] 224 werkzeug - INFO -  * Debugger PIN: 186-193-921
+[ 2023-03-17 13:40:45,106 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:40:45] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-03-17 13:41:00,285 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:41:00] "POST /predictdata HTTP/1.1" 200 -

@@ -1,0 +1,15 @@
+[ 2023-03-17 13:17:43,565 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-03-17 13:17:43,572 ] 224 werkzeug - INFO -  * Debugger PIN: 186-193-921
+[ 2023-03-17 13:18:53,909 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:18:53] "GET / HTTP/1.1" 200 -
+[ 2023-03-17 13:18:59,991 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:18:59] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-03-17 13:19:31,078 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:19:31] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-03-17 13:19:40,020 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:19:40] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-03-17 13:19:49,500 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:19:49] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-03-17 13:19:53,687 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:19:53] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-03-17 13:23:20,794 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:23:20] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-03-17 13:23:48,573 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:23:48] "GET / HTTP/1.1" 200 -
+[ 2023-03-17 13:23:52,212 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:23:52] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-03-17 13:24:16,140 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:24:16] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-03-17 13:24:50,248 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:24:50] "GET / HTTP/1.1" 200 -
+[ 2023-03-17 13:25:10,012 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:25:10] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[ 2023-03-17 13:26:02,010 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:26:02] "POST /predictdata HTTP/1.1" 200 -

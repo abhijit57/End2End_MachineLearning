@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas
 numpy
 matplotlib
@@ -8,4 +9,16 @@ xgboost
 catboost
 dill
 Flask
+=======
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+ipykernel
+xgboost
+catboost
+dill
+Flask
+>>>>>>> 472dc77eb31d84d8b02371a39a5d0a85e8fdc20b
 #-e .

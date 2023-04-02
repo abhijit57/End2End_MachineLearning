@@ -1,0 +1,7 @@
+[ 2023-03-11 13:03:54,508 ] 30 root - INFO - Entered the data ingestion method or component
+[ 2023-03-11 13:03:54,513 ] 33 root - INFO - Read the dataset as dataframe
+[ 2023-03-11 13:03:54,518 ] 39 root - INFO - Train Test Split initiated
+[ 2023-03-11 13:03:54,524 ] 46 root - INFO - Ingestion of the data is completed
+[ 2023-03-11 13:03:54,528 ] 77 root - INFO - Read train and test data completed in Data Transformation
+[ 2023-03-11 13:03:54,528 ] 79 root - INFO - Obtaining preprocessing object
+[ 2023-03-11 13:03:54,528 ] 48 root - INFO - Standard Scaling and Missing Values imputation completed for Numerical columns

@@ -1,0 +1,4 @@
+[ 2023-03-17 13:30:54,741 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-03-17 13:30:54,749 ] 224 werkzeug - INFO -  * Debugger PIN: 186-193-921
+[ 2023-03-17 13:30:58,080 ] 224 werkzeug - INFO - 127.0.0.1 - - [17/Mar/2023 13:30:58] "GET / HTTP/1.1" 200 -
+[ 2023-03-17 13:31:27,783 ] 224 werkzeug - INFO -  * Detected change in 'E:\\Data Science\\Projects\\End2End_MachineLearning\\app.py', reloading
