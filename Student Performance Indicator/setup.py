@@ -18,7 +18,7 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
-    name='e2emlproject',
+    name='StudentPerformanceIndicatorProject',
     version='0.0.1',
     author='Abhijit',
     author_email='nabhijit787@gmail.com',
