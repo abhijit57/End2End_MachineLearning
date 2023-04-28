@@ -1,10 +1,11 @@
 
 ## End to End Machine Learning Project
 
-#### This is an end to end project which predicts student performances using machine learning techniques incorporating robust software engineering and MLOps practices.
+## This is an end to end project which predicts student performances using machine learning techniques incorporating robust software engineering and MLOps practices.
 
 
-#### Deployment: AWS CodePipeline and Elastic Beanstalk
+### Deployment: 
+#### AWS CodePipeline and Elastic Beanstalk
 A web app can be created in the AWS Elastic Beanstalk. Then, the whole project once pushed to a Github repository can be linked to the CodePipeline which would then link with Elastic Beanstalk as deployment provider and the environment created by the web app by beanstalk itself. So, after the github repo is linked with code pipeline which is then linked to elastic beanstalk web app. Then, a continuous delivery pipeline would be created with an URL available. That URL can be triggered in the web-app to access the web app. Moreover, github actions can be integrated into the project pushed into the repo which would then run based on the actions yaml file and act as a Continuous Inegration pipeline. So, if any code changes were done and pushed to the repo, github actions (CI) would be triggered and then the AWS CodeDeploy & Elastic Beanstlak would be triggered too as part of (CD). This is how we can incorporate CI/CD practices into this project.
 
 #### Docker, AWS ECR, EC2, GitHub Actions, Self-Hosted Runner, CI-CD
