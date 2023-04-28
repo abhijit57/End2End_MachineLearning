@@ -40,36 +40,3 @@ AWS_ECR_LOGIN_URI = demo>> 566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
 ECR_REPOSITORY_NAME = simple-app
 
-About
-No description, website, or topics provided.
-Resources
- Readme
-Stars
- 16 stars
-Watchers
- 2 watching
-Forks
- 17 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Jupyter Notebook
-95.4%
- 
-Python
-3.6%
- 
-Other
-1.0%
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Co
